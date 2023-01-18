@@ -1,11 +1,42 @@
-.td{
-  display: in-line-block;
-  vertical-align: inherit;
-  font-weight: bold;
-  text-align: -internal-center;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
 }
 
 
+th {
+  padding-bottom: 5px;
+}
+
+tr{
+  text-align: left;
+
+  display: table-row;
+}
+
+
+table {
+
+  border-collapse: seperate;
+
+}
+
+
+
+h1{
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
